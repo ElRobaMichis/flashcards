@@ -1,46 +1,120 @@
-# Getting Started with Create React App
+# Multilingual Flashcard Learning App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A modern, interactive flashcard application for language learning, built with React and TypeScript.
 
-## Available Scripts
+## 🌟 Features
 
-In the project directory, you can run:
+### Core Functionality
+- **Custom Flashcard Creation**
+  - Add terms and translations
+  - Support for multiple languages
+  - Optional examples and comments
+  - Source and target language selection
 
-### `npm start`
+### Learning Tools
+- **Interactive Quiz Mode**
+  - Dynamic quiz generation
+  - Language-specific filtering
+  - Progress tracking
+  - Adaptive difficulty
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+### Progress Tracking
+- **Learning Progress**
+  - Track correct/incorrect answers
+  - Cards marked as "learned" after 10 correct answers
+  - Visual progress indicators
+  - Manual learned status toggle
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+### User Interface
+- **Modern Design**
+  - Clean, intuitive interface
+  - Responsive layout
+  - Card flip animations
+  - Progress visualization
 
-### `npm test`
+## 🚀 Technologies Used
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- **Frontend Framework**: React with TypeScript
+- **State Management**: Redux Toolkit
+- **UI Components**: Material-UI
+- **Animations**: Framer Motion
+- **Form Handling**: React Hook Form
+- **Storage**: Browser's localStorage
+- **Build Tool**: Create React App
 
-### `npm run build`
+## 📝 Getting Started
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+1. Clone the repository:
+```bash
+git clone https://github.com/ElRobaMichis/flashcards.git
+```
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+2. Install dependencies:
+```bash
+cd flashcards
+npm install
+```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+3. Start the development server:
+```bash
+npm start
+```
 
-### `npm run eject`
+4. Open [http://localhost:3000](http://localhost:3000) in your browser.
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+## 💡 Usage
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+1. **Adding Flashcards**
+   - Click "Add Flashcard" tab
+   - Select source and target languages
+   - Enter term and translation
+   - Add optional examples/comments
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+2. **Studying**
+   - Browse cards in the main view
+   - Click cards to flip and reveal translations
+   - Mark cards as learned/unlearned
+   - Track your progress
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+3. **Quiz Mode**
+   - Select source language
+   - Answer questions to test knowledge
+   - See immediate feedback
+   - Track learning progress
 
-## Learn More
+## 🔧 Local Development
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+```bash
+# Install dependencies
+npm install
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+# Run development server
+npm start
+
+# Build for production
+npm run build
+
+# Run tests
+npm test
+```
+
+## 📱 Responsive Design
+
+The app is fully responsive and works on:
+- Desktop computers
+- Tablets
+- Mobile phones
+
+## 🔒 Privacy
+
+- All data is stored locally in your browser
+- No external servers or databases
+- Your flashcards remain private
+
+## 👤 Author
+
+Agustin Medrano
+
+## 📄 License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
